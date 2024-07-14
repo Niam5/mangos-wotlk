@@ -1381,7 +1381,6 @@ void WorldObject::Update(const uint32 diff)
     }
 }
 
-
 void WorldObject::_Create(uint32 guidlow, HighGuid guidhigh, uint32 phaseMask)
 {
     Object::_Create(guidlow, guidlow, 0, guidhigh);
